@@ -42,6 +42,11 @@ def show_vars():
 show_vars() # 7 10
 print(my_var_1, my_var_2) # 90, 10
 
+# built-in scope
+print(str(45)) # '45'
+print(type(3.14)) # <class 'float'>
+print(isinstance(3, str)) # False
+
 # extra info: python follows LEGB(local, Enclosing, Global, Built-in) rules to deteine the scope of a variable
 # extra info: global keyword modify only trully global variables, not another functions variables
 # extra info: nonlocal keyword modify only 1 step inner nested functions variables
